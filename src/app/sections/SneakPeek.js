@@ -10,7 +10,7 @@ const SneakPeek = () => {
         <div className='opacity-100 p-5 my-10 z-10 flex md:flex-row flex-col backdrop-blur-xl bg-[#d9d9d920] w-full rounded-[10px]'>
           <div className='md:w-[60%] w-full flex justify-center items-center relative'>
             <h2 className='font-black text-2xl md:text-4xl tshadow absolute left-[50%] top-[25%] -translate-x-[200%] md:-translate-x-[160%]'>APTOS</h2>
-            <Image className='h-[80%] md:h-full' src={'/sneakpeek.svg'} width={200} height={200}/>
+            <Image className='h-[80%] md:h-full' src={'/Victors1.png'} width={200} height={200}/>
             <h2 className='font-bold text-2xl md:text-4xl tshadow absolute right-[50%] top-[25%] translate-x-[150%] md:translate-x-[130%]'>VICTOR</h2>
           </div>
           <div className='md:w-[40%] md:mt-0 mt-20 w-full flex flex-col justify-center items-center'>
