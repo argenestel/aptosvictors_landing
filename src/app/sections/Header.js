@@ -5,13 +5,12 @@ import Link from "next/link";
 
 const Header = () => {
   const onDocClick = () => {
-    // Handle click event for the Docs button
     console.log("Docs button clicked");
   };
 
   return (
     <div className="h-fit p-3 relative text-white z-1 items-center justify-center text-center">
-      <h1 className=" text-white font-bsst font-semibold text-8xl mt-12">
+      <h1 className="text-white font-bsst font-semibold text-8xl mt-12">
         APTOS VICTORS
       </h1>
       <p className="text-xl mt-4 font-lato">Endless adventure, infinite possibilities with cNFTs</p>
@@ -26,7 +25,13 @@ const Header = () => {
       </div>
       
       <div className="flex items-center justify-center text-center mt-14">
-         <Image className="md:w-1/3 w-[80%] h-[100%]" src={'/Victors.png'} alt="header" width={800} height={800}/>
+         <Image 
+           className="w-full h-auto max-w-lg md:max-w-3xl" 
+           src={'/Victors.png'} 
+           alt="header" 
+           width={800} 
+           height={800}
+         />
       </div>
     </div>
   );
