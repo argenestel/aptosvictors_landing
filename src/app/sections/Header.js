@@ -26,7 +26,7 @@ const Header = () => {
       </div>
       
       <div className="flex items-center justify-center text-center mt-14">
-         <Image className="md:w-1/3 w-[80%]" src={'/Victors.png'} alt="header" width={800} height={800}/>
+         <Image className="md:w-1/3 w-[80%] h-[100%]" src={'/Victors.png'} alt="header" width={800} height={800}/>
       </div>
     </div>
   );
