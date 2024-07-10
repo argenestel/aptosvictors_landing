@@ -27,13 +27,13 @@ const RightArrow = (props) => {
 
 const roads = [
   {
-    "img": '/victor1.svg',
+    "img": '/ExploreVictors.png',
     "text": "MIX & MATCH",
     "sub": "Combine character, weapon, and accessory NFTs for endless possibilities"
 
   },
   {
-    "img": '/victor2.svg',
+    "img": '/MultiVictors.png',
     "text": "Community Creations",
     "sub": "Trade and showcase your one-of-a-kind NFT combinations"
   },
@@ -43,7 +43,7 @@ const roads = [
     "sub": "Upgrade your NFTs to unlock new visual styles and effects"
   },
   {
-    "img": '/victor4.svg',
+    "img": '/ToolsVictors.png',
     "text": "Dynamic Abilities",
     "sub": "Unlock new skills and powers through unique NFT combinations"
   },
