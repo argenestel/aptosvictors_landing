@@ -16,7 +16,10 @@ const SneakPeek = () => {
           <div className='md:w-[40%] md:mt-0 mt-20 w-full flex flex-col justify-center items-center'>
             <Image src={'/passqr.png'}  width={200} height={200}/>
             <h3 className='text-xl my-2'>Scan to unleash your Victor in AR</h3>
+
             <Link href={"https://pass.aptosvictors.xyz"}  className="px-6 py-2 bg-gradient-to-r from-pink-500 to-yellow-500 text-white font-bold rounded-full my-4 w-[150px]">Try AR Now</Link>
+            <h6 className="text-xs text-gray-400">*Only Works on AR Enabled Device</h6>
+
           </div>
         </div>
       </div>
